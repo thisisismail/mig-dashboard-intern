@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import { useSelector } from "react-redux";
+// import LoginCard from "./component/LoginCard/index";
+// import NavBar from "./component/NavBar/index.js";
+// import CompanyCardProfile from "./component/CompanyCardProfile";
+import PageCompanyDashboard from "./pages/PageCompanyDashboard/index.js";
 
 function App() {
+  //take the state from redux
+  // const token = useSelector((state) => state.tokenReducer);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* {token} */}
+      {/* <LoginCard /> */}
+      <PageCompanyDashboard />
     </div>
   );
 }

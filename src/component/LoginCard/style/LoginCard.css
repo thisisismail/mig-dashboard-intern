@@ -1,0 +1,12 @@
+.login-card-container input,
+button {
+  display: block;
+  width: 100%;
+}
+
+.login-card-container {
+  border: 1px solid red;
+  padding: 5px;
+  width: 320px;
+}
+

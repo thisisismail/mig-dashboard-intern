@@ -1,0 +1,14 @@
+.page-company-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: 2px solid red;
+  /* padding: 20px; */
+}
+
+.page-company-grid {
+  grid-template: 100px 1fr 1fr 1fr / 100px 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
