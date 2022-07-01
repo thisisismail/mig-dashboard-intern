@@ -30,8 +30,8 @@ export default function PageCompanyDashboard() {
               <LokasiCard />
             </div>
             <div className="bg-red-100">4</div>
-            <div className="bg-red-100 col-start-2 row-start-2 row-span-2">
-              <AktivitasCard/>
+            <div className="col-start-2 row-start-2 row-span-2">
+              <AktivitasCard />
             </div>
             <div className="bg-red-100">2</div>
           </div>
