@@ -13,7 +13,7 @@ export default function HeaderBar() {
         <IoMdNotificationsOutline size={size} />
         <div className="flex flex-row pl-4">
           <BiUserCircle size={size} />
-          <Typography>Nama Saya</Typography>
+          <Typography className="pl-2">Nama Saya</Typography>
         </div>
       </div>
     </div>
